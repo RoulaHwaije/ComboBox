@@ -1,0 +1,30 @@
+.combobox-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .selected-item {
+    cursor: pointer;
+    border: 1px solid #c00c0c;
+    padding: 5px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+  }
+  
+  .dropdown-item {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
